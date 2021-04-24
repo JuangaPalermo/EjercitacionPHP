@@ -286,24 +286,6 @@ class Producto{
                    return $objetoAccesoDato->RetornarUltimoIdInsertado();
         }
 
-        public static function TraerUnProducto($codigoDeBarra) 
-        {
-                $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
-                $consulta =$objetoAccesoDato->RetornarConsulta("SELECT id as id, 
-                                                                codigo_de_barra as codigoDeBarra,
-                                                                nombre as nombre,
-                                                                tipo as tipo,stock as stock, 
-                                                                precio as precio,
-                                                                fecha_de_creacion as fechaDeCreacion, 
-                                                                fecha_de_modificacion as fechaDeModificacion 
-                                                                FROM producto WHERE codigo_de_barra = $codigoDeBarra");
-                $consulta->execute();
-                $cdBuscado= $consulta->fetchObject('producto');
-                return $cdBuscado;				
-
-                
-        }
-
 //--------------------------------//
 }
 
