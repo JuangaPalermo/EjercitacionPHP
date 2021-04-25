@@ -1,0 +1,13 @@
+INDICE DE METODOS
+
+a) {archivo: usuario.php, renglon: 388}
+b) {archivo: producto.php, renglon: 305}
+c) {archivo: ventas.php, renglon: 141}
+d) {archivo: ventas.php, renglon: 162}
+e) {archivo: ventas.php, renglon: 188}
+f) {archivo: ventas.php, renglon: 210}
+g) {archivo: ventas.php, renglon: 221}
+h) {archivo: ventas.php, renglon: 232}
+i) {archivo: ventas.php, renglon: 250}
+j) {archivo: usuario.php, renglon: 423}
+k) {archivo: ventas.php, renglon: 162}
